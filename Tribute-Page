@@ -1,0 +1,83 @@
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Modak&display=swap" rel="stylesheet">
+
+<style>
+
+	#main {
+		color: black;
+		background-color: red;
+		font-family: 'Bree Serif', monospace;
+    font-size: 35px;
+	}
+
+	#header {
+		font-family: Modak, monospace;
+	}
+  
+  #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  
+ 
+  h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #stats {
+    font-size: 20px;
+  }
+  
+  #honours {
+    font-size: 20px;
+  }
+
+</style>
+
+
+
+
+
+<html id="main">
+	<head id="header">
+		<h1 id="title"> JOSEF Martinez </h1>
+		<div id="img-div">
+		<img id="image" src="https://thesefootballtimes.co/wp-content/uploads/2018/09/martinez.jpg" alt="Josef Martinez celebrates after scoring a goal in Mercedes-Benz Stadium.">
+		<div id="img-caption">Josef Martinez celebrates after scoring a goal in Mercedes-Benz Stadium</div>
+		</div>
+	</head>
+
+	<body id="body">
+		<p id="tribute-info">
+		Josef Martinez is a Venezuelan professional forward for Atlanta United in Major League Soccer. He has been with the club since its first season. In his three full seasons with the club he has accomplished more than many other players in the league's history. He began his career with Caracas FC on August 21, 2010 and scored his first goal against Deportivo Petare on November 21, 2010. Following a transfer to BSC Young Boys (Swiss Super League), he made his debut for the new team on February 5, 2012. During his time at BSC Young Boys, he was called up to the Venezuelan national team. After one season with the club, Josef was sent on loan to Thun, where he was, for a short time, the top scorer in the Swiss Super League before being recalled by Young Boys. In 2015, he transferred to the Italian club Torino for a reported three million Euros. Finally, on February 2, 2017, Martinez was loaned with the option to buy to the MLS expansion team Atlanta United where he scored a hat trick in his second league game with the club.
+		</p>
+    <ul id="stats">Some Notable Stats
+      <li>Total Career Club Goals: 131</li>
+      <li>Total Career Club Appearances: 288</li>
+      <li>Set the MLS record for Goals in 2018 (Broken by Carlos Vela the following year)</li>
+      <li>Since joining Atlanta United, has 88 goals in 99 total appearances.</li>
+    </ul>
+    
+    <ul id="honours"> Trophies and Honours:
+      <li>MLS Cup Champion: 2018</li>
+      <li>Eastern Conference Champion: 2018</li>
+      <li>U.S. Open Cup Champion: 2019</li>
+      <li>Campeones Cup Champion: 2019</li>
+      <li>MLS Best XI: 2017, 2018, 2019</li>
+      <li>MLS MVP: 2018</li>
+      <li>MLS Golden Boot: 2018</li>
+      <li>All-Star: 2018, 2019</li>
+      <li>MLS Cup MVP: 2018</li>
+      <li>MLS Goal of the Year: 2019</li>
+    </ul>
+	
+		<a id="tribute-link" href="https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez" target="_blank"> Find more info on Josef Martinez here.</a>
+	</body>
+</html>
