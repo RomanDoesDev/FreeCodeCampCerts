@@ -1,0 +1,133 @@
+<div class="container">
+	<header class="header">
+		<h1 id="title" class="center-text">Project 2 Survey Form</h1>
+		<p id="description" class="description">This is a generic survey form, created for FreeCodeCamp's Responsive Web Development certification.</p>
+	</header>
+	<form id="survey-form">
+		<div class="form">
+			<label id="name-label" for="name">Name:</label>
+			<input
+				type="text"
+				name="name"
+				id="name"
+				class="form-input"
+				placeholder="Your name here"
+				required
+			/>
+		</div>
+		<div class="form">
+			<label id="email-label" for="email">Email:</label>
+			<input
+				type="email"
+				name="email"
+				id="email"
+				class="form-input"
+				placeholder="Enter your Email"
+				required
+			/>
+		</div>
+		<div class="form">
+			<label id="number-label" for="number">Age:</label>
+			<input
+				type="number"
+				name="age"
+				id="number"
+				min="8"
+				max="100"
+				class="form-input"
+				placeholder="Age (Optional)"
+			/>
+		</div>
+		<div class="form">
+			<p class="center-text">A brief question, to be answered in the below:</p>
+			<select id="dropdown" name="dropdown" class="form-input">
+				<option disable selected value>Select one:</option>
+				<option value="value1">Value 1</option>
+				<option value="value2">Value 2</option>
+				<option value="value3">Value 3</option>
+				<option value="value4">Value 4</option>
+			</select>
+		</div>
+		<div class="form">
+			<p>Multiple choice question, to be answered below:</p>
+			<label>
+				<input
+					name="radio"
+					value="no"
+					type="radio"
+					class="input-radio"
+					checked
+				/>No.
+			</label>
+			<label>
+				<input
+					name="radio"
+					value="maybe"
+					type="radio"
+					class="input-radio"
+					checked
+				/>Maybe.
+			</label>
+			<label>
+				<input
+					name="radio"
+					value="yes"
+					type="radio"
+					class="input-radio"
+					checked
+				/>Yes.
+			</label>
+		</div>
+		<div class="form">
+			<p>Follow up question, to be answered below:</p>
+			<label>
+				<input
+					name="option1"
+					value="option-one"
+					type="checkbox"
+					class="input-checkbox"
+					
+				/>Option 1.
+			</label> 
+			<label>
+				<input
+					name="option2"
+					value="option-two"
+					type="checkbox"
+					class="input-checkbox"
+					
+				/>Option 2.
+			</label> 
+			<label>
+				<input
+					name="option3"
+					value="option-three"
+					type="checkbox"
+					class="input-checkbox"
+					
+				/>Option 3.
+			</label> 
+			<label>
+				<input
+					name="option4"
+					value="option-four"
+					type="checkbox"
+					class="input-checkbox"
+					
+				/>Option 4.
+			</label> 
+		</div>
+		<div class="form">
+			<p> Questions, comments, concerns? </p>
+			<textarea
+				id="comments"
+				class="input-textarea"
+				name="comment"
+				placeholder="Please enter any comments, questions, or concerns here."
+			></textarea>
+		</div>
+		<div class="form">
+			<button type="submit" id="submit" class="submitbutton">Submit</button>
+		</div>
+	</form>
+</div>
